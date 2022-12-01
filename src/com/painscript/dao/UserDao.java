@@ -26,7 +26,7 @@ public class UserDao {
 
 	public boolean validateEmail(String emailId) {
 
-	/*	Transaction transaction = null;
+		Transaction transaction = null;
 		User user = null;
 		
 		try (Session session = HibernateUtil.getSessionFactory().openSession()) {
@@ -45,8 +45,8 @@ public class UserDao {
 			if (transaction != null) {
 				transaction.rollback();
 			}
-			e.printStackTrace();*/
-	//}
+			e.printStackTrace();
+	}
 		return true;
 	}
 

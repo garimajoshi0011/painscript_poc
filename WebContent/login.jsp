@@ -24,7 +24,7 @@
 			<div class="form-group">
 				<label for="emailId">Email ID:</label> <input type="text"
 					class="form-control" id="emailId" placeholder="EmailId"
-					name="username" required>
+					name="emailId" required>
 			</div>
 
 			<button type="submit" class="btn btn-primary">Submit</button>
